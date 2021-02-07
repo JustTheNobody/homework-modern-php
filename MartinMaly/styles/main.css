@@ -1,0 +1,77 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+body {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-variant: normal;
+  line-height: 23px;
+  text-align: left;
+  background-color: white;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+:root {
+  --gold: #dbae1d;
+  --goldDark: #937c4b;
+  --blue: #1D4ADB;
+  --blueLight: #cae4db;
+  --bookingFild: #a5c3bf;
+  --bookingFildText: #64848b;
+  --bookingSpan: #64848b;
+  --orange: #DB4F1D;
+  --text: #8eaaa2;
+  --fail: #b04343;
+  --failDark: #7e3131;
+  --success: #43b050;
+  --successDark: #296e31;
+}
+
+h1 {
+  font-family: "Barlow";
+  font-size: 2rem;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.content {
+  width: 80%;
+  max-width: 1200px;
+  margin: 30px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.content .new {
+  background-color: #969494;
+  border-top: 1px solid #c24c4c;
+  padding: 0 10px;
+  font-weight: bolder;
+}
+
+.content h1 {
+  color: darkolivegreen;
+}
+/*# sourceMappingURL=main.css.map */
